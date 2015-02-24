@@ -1,0 +1,53 @@
+body{
+cursor:default;
+font-family: Helvetica, arial, sans-serif, "Segoe UI";
+color:#fff;
+background: #663232;
+margin-top:60px;
+}
+
+img::selection , img::-moz-selection{
+background: transparent;
+}
+
+h1{
+font-size:1.7em;
+text-align:center;
+}
+
+.wrap{
+width: 500px;
+margin: 0 auto;
+border: #fff 10px solid;
+}
+
+.before-slide {
+overflow: hidden;
+border-right-width: 10px;
+border-right-style: solid;
+border-right-color: #fff;
+max-width:500px;
+}
+
+.comparison-slider {
+position: relative;
+width: 500px;
+height: 500px;
+}
+.comparison-slider > * {
+position: absolute;
+}
+
+.before, .after {
+color:#fff;
+padding: 20px;
+background: rgba(0, 0, 0, 0.35);
+}
+
+.before {
+left: 0;
+}
+
+.after{
+right:0;
+}
